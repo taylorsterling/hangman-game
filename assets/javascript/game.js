@@ -1,9 +1,8 @@
-
-var words = ['lobsterfest', 'beefsquatch', 'wagstaff', 'capoeira', 'quippiquisset', 'tina', 'bob', 'louise', 'linda', 'gene', 'teddy'];
+var words = ['lobsterfest', 'beefsquatch', 'wagstaff', 'capoeira', 'quippiquisset', 'tina', 'bob', 'louise', 'linda', 'gene', 'teddy', 'belcher', 'bleaken'];
 var wordBank;
 var tries;
 var randomWord;
-var hint;
+var hint = [];
 var scoreboard;
 var prevWord;
 
@@ -14,7 +13,6 @@ function init() {
     hint = underscoreReplace(randomWord);
     scoreboard = 0;
     prevWord = "";
-
     document.getElementById("hint").innerHTML = hint;
     document.getElementById("images").innerHTML = "<img id='linda' src='assets/images/linda.png' alt='linda'>"
 }
@@ -22,11 +20,10 @@ function init() {
 // This function is run whenever the user presses a key.
 document.onkeyup = function (event) {
 
-
     // Determines which key was pressed.
     var letter = event.key;
 
-    document.getElementById("hint").innerHTML = hint;
+    document.getElementById("hint").innerHTML = hint.join(" ");
     console.log(letter);
 
     //check if letter is in word bank
@@ -48,7 +45,7 @@ document.onkeyup = function (event) {
 
 
 
-    document.getElementById("hint").innerHTML = hint;
+    document.getElementById("hint").innerHTML = hint.join(" ");
     document.getElementById("letterbank").innerHTML = wordBank;
     checkIfWin();
 
@@ -102,7 +99,7 @@ function restartGame() {
     randomWord = chooseWord();
     hint = underscoreReplace(randomWord);
     console.log("Game Restarted!");
-    document.getElementById("hint").innerHTML = hint;
+    document.getElementById("hint").innerHTML = hint.join(" ");
     document.getElementById("images").innerHTML = "<img id='linda' src='assets/images/linda.png' alt='linda'>"
     document.getElementById("tries").innerHTML = tries;
     document.getElementById("letterbank").innerHTML = wordBank;
