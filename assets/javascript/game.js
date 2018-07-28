@@ -13,7 +13,7 @@ function init() {
     hint = underscoreReplace(randomWord);
     scoreboard = 0;
     prevWord = "";
-    document.getElementById("hint").innerHTML = hint;
+    document.getElementById("hint").innerHTML = hint.join(" ");
     document.getElementById("images").innerHTML = "<img id='linda' src='assets/images/linda.png' alt='linda'>"
 }
 
