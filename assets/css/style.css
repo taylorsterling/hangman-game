@@ -1,0 +1,169 @@
+body {
+    background: radial-gradient( green, darkgreen, black);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+h1 {
+    display: none;
+}
+.round {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    width: 150px;
+    background-color: #ff6da7;
+    font-family: Georgia;
+    float: none;
+    display: block;
+    margin-left: 46%;
+    margin-right: 25%;
+    margin-top: 15px;
+    font-weight: bold;
+    color: rgb(1, 66, 1);
+}
+
+.bobslogo {
+    width: 500px;
+    height: 280px;
+    float: none;
+    display: block;
+    margin-left: 33%;
+    margin-right: 31%;
+    margin-top: 3%;
+}
+
+#burger-man {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia;
+    float: none;
+    display: block;
+    margin-left: 44%;
+    margin-right: 28%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+#game {
+    margin-top: 25%;
+    font-family: Georgia;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+#linda {
+    margin-top: 25%;
+}
+#bun {
+    width: 200px;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+#buntom {
+    width: 200px;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+#buntomlet{
+    width: 200px;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+buntomletpat{
+    width: 200px;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+#buntomletpat{
+    width: 200px;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+#buntomletpatcon{
+    width: 200px;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+#cheeseburger{
+    width: 200px;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+#burger {
+    width: 200px;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+#letter-bank {
+    border: 1px;
+    border: solid;
+    border-color: yellow;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    font-family: georgia;
+    margin-left: 20px;
+
+}
+#currentscore {
+    border: 1px;
+    border: solid;
+    border-color: yellow;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    font-family: georgia;
+    margin-left: 20px;
+
+}
+#hint {
+    border: 1px;
+    border: solid;
+    border-color: yellow;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    font-family: georgia;
+    margin-left: 20px;
+
+}
+#correct {
+    border: 1px;
+    border: solid;
+    border-color: yellow;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    font-family: georgia;
+    margin-left: 20px;
+
+}
+#remaining {
+    border: 1px;
+    border: solid;
+    border-color: yellow;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    font-family: georgia;
+    margin-left: 20px;
+}
+#previousword {
+    border: 1px;
+    border: solid;
+    border-color: yellow;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    font-family: georgia;
+    margin-left: 20px;
+}
