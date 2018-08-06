@@ -28,8 +28,7 @@ body {
 }
 
 .bobslogo {
-    width: 500px;
-    height: 280px;
+    width: 38%;
     margin-top: 16vh;
     display: block;
     margin-left: auto;
@@ -69,48 +68,48 @@ body {
 }
 
 #game {
-    margin-top: 30vh;
+    margin-top: 16vh;
     font-family: Georgia;
     font-size: 20px;
     margin-bottom: 3%;
     margin-left: 20px;
 }
 #linda {
-    margin-top: 35%;
+    margin-top: 16vh;
 }
 #bun {
     width: 200px;
-    margin-top: 35%;
+    margin-top: 16vh;
     margin-left: 20%;
 }
 #buntom {
     width: 200px;
-    margin-top: 35%;
+    margin-top: 16vh;
     margin-left: 20%;
 }
 #buntomlet{
     width: 200px;
-    margin-top: 35%;
+    margin-top: 16vh;
     margin-left: 20%;
 }
 buntomletpat{
     width: 200px;
-    margin-top: 35%;
+    margin-top: 16vh;
     margin-left: 20%;
 }
 #buntomletpat{
     width: 200px;
-    margin-top: 35%;
+    margin-top: 16vh;
     margin-left: 20%;
 }
 #buntomletpatcon{
     width: 200px;
-    margin-top: 35%;
+    margin-top: 16vh;
     margin-left: 20%;
 }
 #cheeseburger{
     width: 200px;
-    margin-top: 35%;
+    margin-top: 16vh;
     margin-left: 20%;
 }
 #burger {
