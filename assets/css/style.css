@@ -56,10 +56,10 @@ body {
     /* Next Page to Game */
 
 #infoside {
-    /* /* display: block;
+    display: block;
     margin-left: auto;
-    margin-right: auto; */
-} */
+    margin-right: auto;
+} 
 
 #gameside {
     display: block;
@@ -190,7 +190,9 @@ body {
 }
 
 #inputForm {
-    margin-bottom: 5%;
+
+ margin: 5%;
+
 }
 
 .card {
@@ -198,4 +200,5 @@ body {
     float: none; 
     background: transparent;
     border: none;
+
 }
